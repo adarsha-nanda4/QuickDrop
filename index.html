@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Upload Files</title>
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+  <section id="App">
+    <!-- -----------------navbar-------------------- -->
+<div class="navbar">QuickDrop</div>
+ <!-- -----------------animation-------------------- -->
+<div class="animation-box"><img src="/data/app copy.gif" width="300px" alt=""></div>
+
+ <!------------------- uplode box------- -->
+    <div class="upload-container">
+    <h1>Upload Files</h1>
+    <p class="subheading">Upload your user-downloadable files.</p>
+
+  <div class="upload-box" onclick="document.getElementById('fileInput').click();">
+  <input type="file" id="fileInput" hidden multiple />
+  <img src="/data/upload.png" alt="upload icon" class="upload-icon" />
+  <p>Drop your files here or <strong>browse</strong></p>
+  <span>Max file size up to 1 GB</span>
+ </div>
+
+  <div class="file-preview" id="filePreview"></div>
+  <div class="success-message" id="successMessage"></div>
+   <div class="btn-row">
+
+  <button class="btn-outline">Back</button>
+  <button class="btn-fill" onclick="uploadFile()">Next</button>
+      </div>
+    </div>
+
+
+
+      <section class="textline-box">
+    <div class="textline-heder">Create Your Own app</div>
+    <div class="textlin">We are professional App developer, offering my expertise in creating dynamic and responsive websites with a focus on statistical data. My skills encompass advanced app development techniques </div>
+  <a href="https://www.adarshananda.com/">  <div class="btn-box"> <div class="dev-btn"> let's GO</div></div></a>
+    </section>
+  </section>
+
+  <script src="/js/api.js"></script>
+</body>
+</html>

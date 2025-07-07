@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+      color:rgb(43, 102, 239) ;
+
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+
+}
+#App{
+ width: 100%;
+ height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:25px;
+}
+.animation-box{
+  width: 100%;
+  height: 200px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.upload-container {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  width: 95%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  color: #111;
+}
+
+.subheading {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.upload-box {
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  padding: 30px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  background-color: #fafafa;
+}
+
+.upload-box:hover {
+  border-color: #000;
+}
+
+.upload-box p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.upload-box span {
+  font-size: 12px;
+  color: #999;
+}
+
+.upload-icon {
+  width: 36px;
+  opacity: 0.7;
+ 
+}
+
+/* File preview */
+.file-preview {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.file-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdfdfd;
+}
+
+.file-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.file-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.file-size {
+  font-size: 12px;
+  color: #999;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background-color: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.progress-bar-inner {
+  height: 100%;
+  background-color: #00b894;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+.delete-btn {
+  cursor: pointer;
+  color: #999;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.delete-btn:hover {
+  color: red;
+}
+
+/* Buttons */
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+button {
+  padding: 12px 28px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-outline {
+  border: 1px solid #ccc;
+  background: transparent;
+}
+
+.btn-fill {
+  background-color: #000;
+  color: white;
+}
+.success-message {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #2ecc71;
+  font-size: 16px;
+}
+
+
+ .textline-box{
+ width: 100%;
+display: flex;
+flex-direction: column;
+padding: 0px 20px;
+gap: 5px;
+background-color: rgb(251, 251, 255);
+margin-top: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+  }
+.textline-heder{
+    font-size: 20px;
+}
+.textlin{
+    font-size: 15px;
+}
+.btn-box{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.dev-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 60%;
+    border-radius: 7px;
+    border: 2px solid rgb(51, 106, 238);
+    color:rgb(43, 102, 239) ;
+    text-decoration: none;
+}
+
+.dev-btn:hover{
+    background-color: rgb(51, 106, 238) ;
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+#App
+   {
+      display: none;
+  }
+
+}
