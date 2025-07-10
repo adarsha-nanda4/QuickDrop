@@ -1,0 +1,17 @@
+{
+  "name": "QuickDrop",
+  "short_name": "QuickDrop",
+  "theme_color": "#edf5f4",
+  "background_color": "#edf5f4",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "index.html",
+  "description": "Blog and Resume for Christine Dodrill",
+  "orientation": "any",
+  "icons": [
+      {
+          "src": "/data/logo.png",
+          "sizes": "1024x1024"
+      }
+  ]
+}
